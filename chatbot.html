@@ -1,0 +1,44 @@
+<! DOCTYPE html>
+< html >
+< رئيس >
+
+< link  rel = " stylesheet "  type = " text / css "  href = " task22.css " >
+
+</ رئيس >
+< الجسم >
+
+< h1 > لوحة تحكم RoboticBase  </ h1 > 
+ < قبل >
+< button  type = " button "  id = " R " > إيقاف </ button >
+< ر > < ر >
+< ر >
+< button  type = " button "  id = " R1 "   > RIGHT & # 8594 </ button >
+< ر >
+< ر >
+< ر >
+< button  type = " button "  id = " R2 " > يسار & # 8592 </ button >
+< ر >
+< ر >
+< ر >
+< button  type = " button "  id = " R3 " > FORWARD & # 8593 </ button >
+< ر >
+< ر >
+< ر >
+< button  type = " button "  id = " R4 " > BACKWARD & # 8595 </ button >
+  </ قبل >
+ 
+< البرنامج النصي >
+  window.watsonAssistantChatOptions = {
+      IntegrationID : " c9dbc90f-f390-412b-b15b-65ac7b4510a5 " ، // معرّف هذا التكامل.
+      المنطقة : " eu-gb " ، // المنطقة التي تتم استضافة تكاملك فيها.
+      serviceInstanceID : " d7e74f43-9f88-4184-923e-906e3602ca62 " ، // معرّف مثيل الخدمة.
+      onLoad : وظيفة ( مثيل ) { مثيل . تصيير () ؛ }
+    } ؛
+  setTimeout (الوظيفة () {
+    كونست  ر = الوثيقة . createElement ( ' script ' ) ؛
+    ر . src = " https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js " ؛
+    وثيقة . الرأس . appendChild ( ر ) ؛
+  } ) ؛
+</ script >
+</ الجسم >
+</ html >
